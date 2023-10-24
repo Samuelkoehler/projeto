@@ -1,0 +1,124 @@
+/* Reset de margens e preenchimentos */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definições gerais para o corpo */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para links quando hover */
+nav a:hover {
+  color: rgb(192, 56, 7);
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilo para a imagem no cabeçalho */
+header img {
+  vertical-align: middle; /* Alinhamento vertical para centralizar com o texto do h1 */
+}
+
+/* Estilo para o elemento h1 */
+h1 {
+  color: #e67e22; /* Cor laranja */
+  text-align: center; /* Alinhamento central horizontal */
+  display: inline-block; /* Permite o alinhamento vertical */
+  vertical-align: middle; /* Alinhamento vertical para centralizar com a imagem */
+  padding: 0px;
+}
+
+/* Estilo para a barra de navegação */
+/* Estilo para a barra de navegação */
+nav {
+  text-align: center; /* Centraliza os itens de navegação */
+}
+
+/* Estilo para a lista não ordenada na barra de navegação */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para cada item de navegação na barra de navegação */
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+/* Adicione uma separação visual entre os itens do menu */
+nav ul li:after {
+  content: "|"; /* Símbolo de separação, você pode personalizar isso */
+  margin-left: 10px;
+  color: #e67e22; /* Cor laranja */
+}
+
+/* Adicione um quadrado antes de cada item do menu */
+nav ul li:before {
+  content: "\25A0"; /* Código para um quadrado (■) */
+  margin-right: 10px;
+  color: #e67e22; /* Cor laranja */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Estilo para a caixa de pesquisa */
+.search input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.search {
+  padding: 10px;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #e67e22;
+}
+
+/* Estilo para a lista de vagas de emprego */
+.job-listings ul {
+  list-style: none;
+}
+
+.job-listings li {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.job-listings a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
